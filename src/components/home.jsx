@@ -33,7 +33,8 @@ function home() {
             />
           </h1>
           <p className='py-3 text-sm md:text-md text-justify'>
-            olhwofnhfifj aiouefhbiuifjwebfij bsndfiubaifgnjrbguiir aufgiajbfijb bfibdcnjisbdfb ugfuigbu sbfbbfuiiwebfiubei wuegfoiqjhwirnq jdfdfyqweg qiuwgdf8qgwdf njhqwvdfgq qwyfvgqbw ijdby8qwdknqog ajksfgvi bwsajnsoiahdnd aousdbuisbdjansiduioasud qabwdiuassdnuiajbndbn obwdfa sod
+            Welcome to My web-page , i have created this complete <b>frontend</b> website and little-bit of <b>backend</b> work
+            for myself as practice project and i used <i>react</i> , <i>JavaScript</i> , <i>tailwindcss</i> and <i>Html</i> in my website development, hope You like it,Just scroll down to Know about me.
           </p>
           <div className='flex flex-col items-center md:flex-row justify-between space-y-5 md:space-y-0 mt-2'>
             <div>
