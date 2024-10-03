@@ -3,7 +3,7 @@ ITS A COMPLETE FRONT-END ANIMATED WEBSITE,ABOUT MY PORTFOLIO.
 <br>
 I USED HTML , TAILWIND CSS , JS , REACT [VITE].
 <br>
-<div class="flex justify-start gap-3">
+<div classname="flex justify-start gap-3">
  <div>
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>  </a>
  </div>
