@@ -19,6 +19,7 @@ function home() {
       <div className='flex flex-col md:flex-row justify-between'>
         <div className='px-10 md:px-0 py-0 md:py-4 order-2 md:order-1 basis-[40%]'>
           <p className='text-xl pt-4 md:pt-12'>
+
             Welcome In My Feed.
           </p>
           <h1 className='text-3xl py-3'>
