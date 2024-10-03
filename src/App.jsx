@@ -6,6 +6,7 @@ import Navbar from "./components/navbar";
 import Home from "./components/home";
 import About from "./components/about"
 import Footer from "./components/footer"
+import Portfolio from './components/Portfolio';
 
 function App() {
   return(
@@ -13,6 +14,7 @@ function App() {
     <Navbar />
     <Home />
     <About />
+    <Portfolio />
     <Footer />
     </>
   );

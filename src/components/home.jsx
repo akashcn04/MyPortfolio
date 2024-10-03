@@ -91,7 +91,7 @@ function home() {
         </div>
       </div>
     </div>
-    <hr className="border-black border-1" />
+    <hr/>
     </>
   );
 }

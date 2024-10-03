@@ -3,8 +3,8 @@ import React from 'react'
 function about() {
     return (
         <div>
-            <div className='max-w-[1320px] mx-auto mt-10'>
-                <h1 className='text-2xl font-semibold text-black'>
+            <div className='max-w-[1320px] mx-auto mt-10 text-justify px-[18px] md:px-0'>
+                <h1 className='text-2xl font-semibold text-black text-center md:text-start'>
                     About
                 </h1>
                 <p className='text-sm pt-4'>
@@ -12,10 +12,83 @@ function about() {
                 </p>
                 <br />
                 <h1 className='text-xl font-semibold text-green-500'>
-                    Education
+                    Education and Grades
                 </h1>
-                
+                 <ul className='list-disc space-y-2'>
+                    <li>
+                        I have done my primary schooling in <b>JNV Bagalkot</b>.
+                    </li>
+                    <li>
+                        High School (SSLC) : <b>95.68%</b> 
+                    </li>
+                    <li>
+                        PUC [PCMCs] : <b>95.83%</b>
+                    </li>
+                    <li>
+                    I am currently pursuing a B.Tech degree in <b>Computer Science</b> at <b>PES University</b>.
+                    <br />
+                    <p>CGPA :<b> 8.69</b> [till 2nd year]</p>
+                    </li>
+                 </ul>
 
+                <h1 className='text-xl font-semibold text-green-500 pt-7'>
+                    Achivements
+                </h1>
+                <ul className='list-disc space-y-2'>
+                    <li>
+                        Selected For <b>regional level</b> Badminton Game While in JNV and Played <b>state level</b> while in PUC.
+                    </li>
+                    <li>
+                         MRD Scholorship Awardee 2 times in PES University.
+                    </li>
+                 </ul>
+
+                 <h1 className='text-xl font-semibold text-green-500 pt-7'>
+                    Technical Skills
+                </h1>
+                <ul className='list-disc space-y-2'>
+                    <li>
+                        Languages : C, C++, Python, Html, JavaScript 
+                    </li>
+                    <li>
+                         Libraries : Pytorch , Pandas ,mathplotlib , SciKit Learn , Keras
+                    </li>
+                    <li>
+                        Tools : linux , Git
+                    </li>
+                    <li>
+                        Database : MongoDB , Mysql
+                    </li>
+                    <li>
+                        Backend : Nodejs , ExpressJs
+                    </li>
+                    <li>
+                        Others : DataStructure and Algorithms
+                    </li>
+                 </ul>
+
+                 <h1 className='text-xl font-semibold text-green-500 pt-7'>
+                    Hobbies
+                </h1>
+                <ul className='list-disc space-y-2'>
+                    <li>
+                        Reading Newspapers
+                    </li>
+                    <li>
+                    Enjoy playing the harmonium as a hobby, developing skills in music appreciation and creativity.
+                    </li>
+                    <li>
+                        Badminton
+                    </li>
+                    <li>
+                        Fitness
+                    </li>
+                    <li>
+                        Video making and Editing
+                    </li>
+                 </ul>
+                <br />
+                <hr />
             </div>
         </div>
     )
