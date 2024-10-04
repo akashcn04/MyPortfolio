@@ -18,7 +18,7 @@ function navbar() {
           <div className='flex justify-between'>
             <div className='flex gap-3'>
               <div>
-                <img className='w-[60px] h-[60px]' src="src/assets/coder.png" alt="" />
+                <img className='w-[60px] h-[60px]' src="/src/assets/coder.png" alt="" />
               </div>
               <div className='py-[5px]'>
                 <h1 className='text-xl font-semibold cursor-pointer'>Akas<span className='text-red-600 text-xl'>h</span>..</h1>

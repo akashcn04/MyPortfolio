@@ -89,7 +89,7 @@ function home() {
           </div>
         </div>
         <div className='order-1 md:order-2 basis-[60%]'>
-          <img src="src/assets/coder.png" alt="" className=' w-[450px] h-[450px] mx-auto mr-[100px] rounded-full bg-slate-300' />
+          <img src="/src/assets/coder.png" alt="" className=' w-[450px] h-[450px] mx-auto mr-[100px] rounded-full bg-slate-300' />
         </div>
       </div>
     </div>
