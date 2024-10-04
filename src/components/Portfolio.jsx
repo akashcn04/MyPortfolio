@@ -1,4 +1,10 @@
 import React from 'react'
+import react from '../../public/assets/react.png'
+import c from '../../public/assets/C.png'
+import cpp from '../../public/assets/cpp.png'
+import fullstack from '../../public/assets/fullstack.png'
+import python from '../../public/assets/python.png'
+import node from '../../public/assets/node.png'
 
 function Portfolio() {
     const openReact =() => {
@@ -33,7 +39,7 @@ function Portfolio() {
         <div className='grid grid-rows-1 md:grid-cols-4 space-y-8 pt-4 justify-center md:'>
             <div className='mt-[32px] ml-[8px] pt-8 space-y-3 border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:shadow-[0_0_20px_rgba(0,0,255,0.8)] transition-shadow duration-[0.5s] w-[300px] flex flex-col justify-between'>
                 <div>
-                <img src="/src/assets/react.png" alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
+                <img src={react} alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
                 <h1 className='text-center font-semibold text-xl pt-3'>React</h1>
                 <p className='text-center pt-2'>Used mainly React library and little of others too.
                     its Front-End website
@@ -49,7 +55,7 @@ function Portfolio() {
 
             <div className='pt-8 space-y-3 border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:shadow-[0_0_20px_rgba(0,0,255,0.8)] transition-shadow duration-[0.5s]  w-[300px] flex flex-col justify-between'>
                 <div>
-                <img src="/src/assets/fullstack.png" alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
+                <img src={fullstack} alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
                 <h1 className='text-center font-semibold text-xl pt-3'>Full-Stack-1</h1>
                 <p className='text-center pt-2'>Its a complete full-stack Resposive website,done as a group project.
                 </p>
@@ -65,7 +71,7 @@ function Portfolio() {
             <div className='pt-8 space-y-3 border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:shadow-[0_0_20px_rgba(0,0,255,0.8)] transition-shadow duration-[0.5s] w-[300px]
             flex flex-col justify-between'>
                 <div>
-                <img src="/src/assets/cpp.png" alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
+                <img src={cpp} alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
                 <h1 className='text-center font-semibold text-xl pt-3'>C++</h1>
                 <p className='text-center pt-2'>
                     Simply constructed a Black Jack card name using DSA in CPP.
@@ -82,7 +88,7 @@ function Portfolio() {
             <div className='pt-8 space-y-3 border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:shadow-[0_0_20px_rgba(0,0,255,0.8)] transition-shadow duration-[0.5s] w-[300px]
             flex flex-col justify-between'>
                 <div>
-                <img src="/src/assets/C.png" alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
+                <img src={c} alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
                 <h1 className='text-center font-semibold text-xl pt-3'>C language</h1>
                 <p className='text-center pt-2'>
                     its a cache simulator , showing how cache works in MPCA.
@@ -97,7 +103,7 @@ function Portfolio() {
 
             <div className='pt-8 space-y-3 border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:shadow-[0_0_20px_rgba(0,0,255,0.8)] transition-shadow duration-[0.5s] w-[300px] flex flex-col justify-between'>
                <div>
-               <img src="/src/assets/node.png" alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
+               <img src={node} alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
                 <h1 className='text-center font-semibold text-xl pt-3'>Full-Stack-2</h1>
                 <p className='text-center pt-2'>its also full stack website developed as practice project,using nodeJS,and more.
                 </p>
@@ -112,7 +118,7 @@ function Portfolio() {
 
             <div className='pt-8 space-y-3 border-[2px] rounded-lg shadow-lg p-1 cursor-pointer hover:shadow-[0_0_20px_rgba(0,0,255,0.8)] transition-shadow duration-[0.5s] w-[300px] flex flex-col justify-between'>
                 <div>
-                <img src="/src/assets/python.png" alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
+                <img src={python} alt="" className='w-[100px] h-[100px] rounded-full border-slate-300 border-2 m-auto'/>
                 <h1 className='text-center font-semibold text-xl pt-3'>Python</h1>
                 <p className='text-center'>Its basically a simple travel form can be used by any agency to book any vehicle,contact using gui.[only frontend]
                 </p>

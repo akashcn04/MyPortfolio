@@ -7,6 +7,7 @@ import Home from "./home";
 import About from "./about"
 import Portfolio from './Portfolio';
 import Contact from './contact'
+import coder from '../../public/assets/coder.png'
 
 function navbar() {
   const [menu, setmenu] = useState(false);          //remenber function syntax to create a condition
@@ -18,7 +19,7 @@ function navbar() {
           <div className='flex justify-between'>
             <div className='flex gap-3'>
               <div>
-                <img className='w-[60px] h-[60px]' src="/src/assets/coder.png" alt="" />
+                <img className='w-[60px] h-[60px]' src={coder} alt="" />
               </div>
               <div className='py-[5px]'>
                 <h1 className='text-xl font-semibold cursor-pointer'>Akas<span className='text-red-600 text-xl'>h</span>..</h1>
