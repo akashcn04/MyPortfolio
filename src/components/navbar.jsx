@@ -2,7 +2,11 @@
 import React, { useState } from 'react'
 import { CiMenuBurger } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
-
+import { Link } from 'react-scroll';
+import Home from "./home";
+import About from "./about"
+import Portfolio from './Portfolio';
+import Contact from './contact'
 
 function navbar() {
   const [menu, setmenu] = useState(false);          //remenber function syntax to create a condition
@@ -24,11 +28,49 @@ function navbar() {
             {/* navbar for desktop */}
             <div>
               <ul className=' hidden md:flex gap-6 py-4'>
-                <li className='hover:scale-[110%] duration-[0.5s]'>Home</li>
-                <li className='hover:scale-[110%] duration-[0.5s]'>About</li>
-                <li className='hover:scale-[110%] duration-[0.5s]'>Experiance</li>
-                <li className='hover:scale-[110%] duration-[0.5s]'>Portfolio</li>
-                <li className='hover:scale-[110%] duration-[0.5s]'>Contact</li>
+                <li className='hover:scale-[110%] duration-[0.5s] cursor-pointer'>
+                  <Link to="Home"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass='active'
+                  >
+                  Home
+                  </Link>
+                </li>
+                
+                <li className='hover:scale-[110%] duration-[0.5s] cursor-pointer'>
+                  <Link to="About"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass='active'
+                  >
+                  About
+                  </Link>
+                </li>
+                
+                <li className='hover:scale-[110%] duration-[0.5s] cursor-pointer'>
+                  <Link to="Portfolio"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass='active'
+                  >
+                  Portfolio
+                  </Link>
+                </li>
+
+                <li className='hover:scale-[110%] duration-[0.5s] cursor-pointer'>
+                  <Link to="Contact"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass='active'
+                  >
+                  Contact
+                  </Link>
+                </li>
               </ul>
 
               <ul className='md:hidden'>
@@ -46,11 +88,57 @@ function navbar() {
    (
      <div className='md:hidden flex flex-col items-center justify-center h-screen bg-slate-300'>
              <ul className='md:hidden'>
-               <li className='hover:scale-[110%] duration-[0.5s] py-3 font-semibold'>Home</li>
-               <li className='hover:scale-[110%] duration-[0.5s] py-3 font-semibold'>About</li>
-               <li className='hover:scale-[110%] duration-[0.5s] py-3 font-semibold'>Experiance</li>
-               <li className='hover:scale-[110%] duration-[0.5s] py-3 font-semibold'>Portfolio</li>
-               <li className='hover:scale-[110%] duration-[0.5s] py-3 font-semibold'>Contact</li>
+             <li className='hover:scale-[110%] duration-[0.5s] cursor-pointer py-3 font-semibold text-xl'>
+                  <Link 
+                  onClick={() => setmenu(!menu)}
+                  to="Home"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass='active'
+                  >
+                  Home
+                  </Link>
+                </li>
+                
+                <li className='hover:scale-[110%] duration-[0.5s] cursor-pointer py-3 font-semibold text-xl'>
+                  <Link 
+                  onClick={() => setmenu(!menu)}
+                  to="About"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass='active'
+                  >
+                  About
+                  </Link>
+                </li>
+                
+                <li className='hover:scale-[110%] duration-[0.5s] cursor-pointer py-3 font-semibold text-xl'>
+                  <Link 
+                  onClick={() => setmenu(!menu)}
+                  to="Portfolio"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass='active'
+                  >
+                  Portfolio
+                  </Link>
+                </li>
+
+                <li className='hover:scale-[110%] duration-[0.5s] cursor-pointer py-3 font-semibold text-xl'>
+                  <Link 
+                  onClick={() => setmenu(!menu)}
+                  to="Contact"
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass='active'
+                  >
+                  Contact
+                  </Link>
+                </li>
              </ul>
            </div>
    )

@@ -1,9 +1,10 @@
 import React from 'react'
-
+import Animation from './animation'
 function about() {
     return (
-        <div>
-            <div className='max-w-[1320px] mx-auto mt-10 text-justify px-[18px] md:px-0'>
+        <div id='About'>
+            <div className='max-w-[1320px] mx-auto mt-10 text-justify px-[18px] md:px-0 flex flex-col md:flex-row'>
+                <div className='basis-[85%]'>
                 <h1 className='text-2xl font-semibold text-black text-center md:text-start'>
                     About
                 </h1>
@@ -87,10 +88,19 @@ function about() {
                         Video making and Editing
                     </li>
                  </ul>
-                <br />
-                <hr />
+                
+                </div>
+                
+                <div className='basis-[15%] content-center'>
+                 <>
+                 <Animation />
+                 </>
+                </div>
             </div>
+            <br />
+                <hr />
         </div>
+        
     )
 }
 

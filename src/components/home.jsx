@@ -16,7 +16,9 @@ import { ReactTyped } from "react-typed";
 function home() {
   return (
     <>
-    <div className='max-w-[1320px] mx-auto my-[50px] md:mt-[150px]'>
+    <div
+    id='Home' 
+    className='max-w-[1320px] mx-auto my-[50px] md:mt-[150px]'>
       <div className='flex flex-col md:flex-row justify-between'>
         <div className='px-10 md:px-0 py-0 md:py-2 order-2 md:order-1 basis-[40%]'>
           <p className='text-xl pt-4 md:pt-12'>
