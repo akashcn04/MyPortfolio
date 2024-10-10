@@ -4,6 +4,6 @@ using react , javascript , html and tailwind css
 
 <br>
 My website Link 
-<a href="akashportfolio.netlify.app/" >
+<a href="https://akashcnportfolio.netlify.app/" >
 here
 </a>
